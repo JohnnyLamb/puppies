@@ -13,9 +13,13 @@
       <th>Id</th>
     </tr>
     <tr>
-      <td>{{name}}</td>
-      <td>{{id}}</td>
 
+  {% for puppy in puppyArray %}
+      <td>{{puppy}}</td>
+      {% endfor %}
+      {% for id in idArray %}
+      <td>{{id}}</td>
+    {% endfor %}
   </table>
 
 
