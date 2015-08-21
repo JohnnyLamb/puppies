@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+  <h1>ADD A PUPPY</h1>
+  <div></div>
+
+     <form method="post" action="/puppies">
+     <label>NAME</label>
+      <input name="text1" type="text" required>
+      <div></div>
+      <label>ID</label>
+      <input name="text2" type="text" required>
+      <input type="submit" value="Create Puppy">
+    </form>
+
+
+{% endblock %}
